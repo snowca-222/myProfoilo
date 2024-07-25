@@ -136,16 +136,6 @@ const user = {
 function HidBtn() {
   return <button className="rounded-md bg-green-400 px-2 py-1">隱藏</button>;
 }
-// function TitleBox(name_ch: String, name_en: String) {
-//   return (
-//     <>
-//       <div className="flex">
-//         <div>{name_ch}</div>
-//         <div>{name_en}</div>
-//       </div>
-//     </>
-//   );
-// }
 // 自我介紹
 function IntroLists() {
   const listItems = user.intro.map((list, idx) => <li key={idx}>{list}</li>);
@@ -165,24 +155,31 @@ function Software() {
   return <ul>{listItems}</ul>;
 }
 // 語言
-// function Language() {
-//   const listItems = user.language.map((list, idx) => <li key={idx}>{list}</li>);
-//   return <ul>{listItems}</ul>;
-// }
+function Language() {
+  const listItems = user.language.map((list, idx) => <li key={idx}>{list}</li>);
+  return <ul>{listItems}</ul>;
+}
 // 興趣
 function Hobbies() {
   const listItems = user.hobby.map((list, idx) => <li key={idx}>{list}</li>);
   return <ul>{listItems}</ul>;
 }
 // 經歷
-// function Experience() {}
+function Experience() {
+  const listItems = user.experience.map((list, idx) => (
+    <li key={idx}>{list.year}</li>
+  ));
+  return <ul>{listItems}</ul>;
+}
 
 // SOHO
-// function SOHO() {}
+function SOHO() {
+  const listItems = user.soho.map((list, idx) => <li key={idx}>{list}</li>);
+  return <ul>{listItems}</ul>;
+}
 
 function App() {
   const [count, setCount] = useState(0);
-  // const [hidden, setHidden] = useState(false);
   const [test, setTest] = useState("baka");
 
   return (
@@ -209,6 +206,9 @@ function App() {
             </div>
             <div>{user.email}</div>
             <IntroLists />
+            <Language />
+            <SOHO />
+            <Experience />
           </div>
         </div>
         <div>作品與案例</div>
