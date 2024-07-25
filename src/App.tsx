@@ -180,7 +180,6 @@ function SOHO() {
 
 function App() {
   const [count, setCount] = useState(0);
-  const [test, setTest] = useState("baka");
 
   return (
     <>
@@ -213,12 +212,6 @@ function App() {
         </div>
         <div>作品與案例</div>
       </div>
-      <button
-        className="rounded-md bg-green-400 px-2 py-1"
-        onClick={() => setTest((test) => (test = "diamond"))}
-      >
-        隱藏預設{test}
-      </button>
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
