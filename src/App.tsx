@@ -125,7 +125,7 @@ function Header() {
   ));
   return (
     <>
-      <header className="bg-gray-200 py-2">
+      <header className="sticky top-0 bg-gray-200 py-2">
         <div className="container mx-auto">
           <nav className="flex justify-center">{NavLists}</nav>
           <div>{isSelect}</div>
@@ -140,7 +140,7 @@ function App() {
 
   return (
     <>
-      <div className="h-[calc(100dvh/2)] w-full bg-orange-200/40"></div>
+      <div className="h-96 w-full bg-orange-200/40"></div>
       <Header />
       <div className="container mx-auto">
         <div className="flex">
