@@ -1,0 +1,154 @@
+{
+  "name_ch": "謝羽捷",
+  "name_en": "Wayne",
+  "email": "satoushoichi222@gmail.com",
+  "office": "Frontend Developer",
+  "intro": [
+    {
+      "id": "personality",
+      "txt": "個性活潑、外向，善於溝通。喜愛創作與研究，分享知識與技巧。"
+    },
+    {
+      "id": "experience",
+      "txt": "曾任職教育相關產業、進口代理業、遊戲業等相關產業。"
+    },
+    {
+      "id": "years",
+      "txt": "從事網頁前端設計/工程近_年的實務經驗。( 以 Vue 為主，React 有開發基礎)"
+    },
+    {
+      "id": "goodAt",
+      "txt": "擅長以 Vue 開發，具備清楚的思維來進行切版編排、RWD、互動效果等製作。"
+    },
+    {
+      "id": "UIUX",
+      "txt": "從設計起家，因此在開發的過程中具備 UI / UX 的觀點進行調整。"
+    },
+    {
+      "id": "soho",
+      "txt": "有接案經驗，以台灣為主，承接過來自美國的專案。"
+    },
+    {
+      "id": "todo",
+      "txt": "每天必定花 5 至 10 分鐘練習英文、日本語。"
+    },
+    {
+      "id": "learn",
+      "txt": "經常主動學習新知識與技術。"
+    }
+  ],
+  "skills": [
+    "HTML",
+    "CSS3",
+    "SASS/SCSS",
+    "JavaScript",
+    "Vue2/Vue3",
+    "React.js",
+    "RWD",
+    "TailwindCSS",
+    "RESTfulAPI",
+    "UI/UX",
+    "git版控",
+    "3D 模型製作",
+    "插畫",
+    "平面設計"
+  ],
+  "software": [
+    {
+      "name": "Photoshop",
+      "icon": ""
+    },
+    {
+      "name": "Illustrator",
+      "icon": ""
+    },
+    {
+      "name": "Indesign",
+      "icon": ""
+    },
+    {
+      "name": "After Effects",
+      "icon": ""
+    },
+    {
+      "name": "Premiere Pro",
+      "icon": ""
+    },
+    {
+      "name": "Figma",
+      "icon": ""
+    },
+    {
+      "name": "Blender 3D",
+      "icon": ""
+    },
+    {
+      "name": "Zbrush",
+      "icon": ""
+    },
+    {
+      "name": "Clip Studio Paint",
+      "icon": ""
+    }
+  ],
+  "language": [
+    "Chinese - 母語",
+    "English - 初階(基本溝通/閱讀)",
+    "Japanese - 初階(基本溝通/閱讀)"
+  ],
+  "hobby": ["2D / 3D 創作", "模型製作", "影片創作", "羽球、游泳", "音樂遊戲"],
+  "experience": [
+    {
+      "year": 2013,
+      "office": "平面美編人員",
+      "works": [
+        "幼教教材書籍編排設計",
+        "文宣海報、名片設計",
+        "Flash 動畫製作",
+        "產品包裝設計",
+        "CIS 招牌與燈箱設計"
+      ]
+    },
+    {
+      "year": 2014,
+      "office": "網頁前端設計師",
+      "works": [
+        "網頁前端設計",
+        "文宣海報、名片設計",
+        "商品拍攝與美化",
+        "紙本印刷設計與規範",
+        "相關 logo 設計",
+        "遊戲 UI 規劃與製作",
+        "多媒體動畫設計",
+        "聯播網廣告設計"
+      ]
+    },
+    {
+      "year": 2019,
+      "office": "網頁前端工程師",
+      "works": [
+        "figma 設計稿",
+        "API 資料串接",
+        "網頁前端資料處理",
+        "多媒體動畫製作",
+        "廣告製作",
+        "UI 介面設計",
+        "logo 設計"
+      ]
+    }
+  ],
+  "soho": [
+    "網頁書籍撰寫",
+    "網頁錄影教學",
+    "網頁教學課程現場助教",
+    "Panasonic 商品插畫繪製",
+    "手遊 PV 影片設計與製作",
+    "遊戲相關周邊商品設計",
+    "活動企劃與執行",
+    "美甲師形象網站",
+    "會計師形象網站",
+    "營造產業形象網站",
+    "機車貸款網站製作",
+    "台美心理專業交流協會網站開發"
+  ]
+}
