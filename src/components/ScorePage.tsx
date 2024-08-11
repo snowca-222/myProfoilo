@@ -1,4 +1,4 @@
-import scoreLists from "@/libs/js/scoreLists.json";
+import scoreLists from "../libs/js/scoreLists.json";
 import { useState } from "react";
 const handleGetScore = () => {
   console.log(scoreLists);
