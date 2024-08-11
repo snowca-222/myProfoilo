@@ -1,5 +1,5 @@
-import {service} from "@/libs/js/request.js"
-export function PPP(username, userage){
+import {service} from "../request.ts"
+export function PPP(username:string, userage:string){
     return service.request({
         method: "post",
         params: {
