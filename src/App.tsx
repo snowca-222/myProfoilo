@@ -1,9 +1,9 @@
 import { useState } from "react";
 import data from "./libs/js/user.json";
 import { BoxInfo } from "./libs/ts/interface.ts";
-import { ScorePage } from "@/components/ScorePage.tsx";
+import { ScorePage } from "./components/ScorePage.tsx";
 // import axios from "axios";
-import { PPP, ggg } from "@/libs/js/api/post.js";
+import { PPP, ggg } from "./libs/js/api/post.js";
 
 // 技能
 function Skill() {
