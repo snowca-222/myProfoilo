@@ -1,6 +1,4 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import data from "./libs/js/user.json";
 import { BoxInfo } from "./libs/ts/interface.ts";
 import { ScorePage } from "@/components/ScorePage.tsx";
