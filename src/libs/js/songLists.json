@@ -1,0 +1,42 @@
+[
+  {
+    "songName": "音楽 (STARDOM Remix)",
+    "artist": "cosMo＠暴走P",
+    "type": "WORLD",
+    "difficulty": {
+      "single": {
+        "beginner": 2,
+        "basic": 5,
+        "difficult": 8,
+        "expert": 12,
+        "challenge": 17
+      },
+      "double": {
+        "basic": 5,
+        "difficult": 8,
+        "expert": 12,
+        "challenge": 17
+      }
+    }
+  },
+  {
+    "songName": "THE SAFARI (STARDOM Remix)",
+    "artist": "BEMANI Sound Team \"SYUNN\"",
+    "type": "WORLD",
+    "difficulty": {
+      "single": {
+        "beginner": 3,
+        "basic": 6,
+        "difficult": 11,
+        "expert": 13,
+        "challenge": 16
+      },
+      "double": {
+        "basic": 3,
+        "difficult": 6,
+        "expert": 13,
+        "challenge": 16
+      }
+    }
+  }
+]

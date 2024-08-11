@@ -1,0 +1,66 @@
+{
+  "single": {
+    "rank": "None",
+    "total": 0,
+    "classic": {
+      "score": 0,
+      "songs": 0,
+      "top30": [
+        {
+          "songName": "音楽 (STARDOM Remix)",
+          "type": "WORLD",
+          "difficult": "Expert",
+          "flare": {
+            "level": "EX",
+            "point": 816
+          },
+          "scoreLists": {
+            "score": 999920,
+            "ex_score": 1204,
+            "best_ex_score": 1204,
+            "marvelous": 370,
+            "perfect": 8,
+            "great": 0,
+            "good": 0,
+            "OK": 26,
+            "miss": 0,
+            "maxCombo": 378,
+            "fast": 4,
+            "slow": 4
+          }
+        },
+        {
+          "songName": "CURUS",
+          "type": "CLASSIC",
+          "difficult": "Expert",
+          "flare": {
+            "level": "EX",
+            "point": 640
+          },
+          "scoreLists": {
+            "score": 999890,
+            "ex_score": 976,
+            "best_ex_score": 976,
+            "marvelous": 283,
+            "perfect": 11,
+            "great": 0,
+            "good": 0,
+            "OK": 35,
+            "miss": 0,
+            "maxCombo": 294,
+            "fast": 3,
+            "slow": 8
+          }
+        }
+      ]
+    },
+    "white": {
+      "score": 0,
+      "songs": 0
+    },
+    "gold": {
+      "score": 0,
+      "songs": 0
+    }
+  }
+}

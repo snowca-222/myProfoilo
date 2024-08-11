@@ -1,0 +1,492 @@
+[
+  {
+    "songName": "音楽 (STARDOM Remix)",
+    "folder": "WORLD",
+    "type": "WORLD",
+    "scoreLists": {
+      "single": [
+        {
+          "difficult": "Beginner",
+          "gauge": {
+            "level": "-",
+            "point": 0
+          },
+          "result": {
+            "score": 0,
+            "exScore": 0,
+            "bestExScore": 0,
+            "marvelous": 0,
+            "perfect": 0,
+            "great": 0,
+            "good": 0,
+            "ok": 0,
+            "miss": 0,
+            "maxCombo": 0,
+            "fast": 0,
+            "slow": 0
+          },
+          "memo": "",
+          "option": {
+            "speed": 1,
+            "turn": "normal"
+          }
+        },
+        {
+          "difficult": "Basic",
+          "gauge": {
+            "level": "-",
+            "point": 0
+          },
+          "result": {
+            "score": 0,
+            "exScore": 0,
+            "bestExScore": 0,
+            "marvelous": 0,
+            "perfect": 0,
+            "great": 0,
+            "good": 0,
+            "ok": 0,
+            "miss": 0,
+            "maxCombo": 0,
+            "fast": 0,
+            "slow": 0
+          },
+          "memo": "",
+          "option": {
+            "speed": 1,
+            "turn": "normal"
+          }
+        },
+        {
+          "difficult": "Difficult",
+          "gauge": {
+            "level": "-",
+            "point": 0
+          },
+          "result": {
+            "score": 0,
+            "exScore": 0,
+            "bestExScore": 0,
+            "marvelous": 0,
+            "perfect": 0,
+            "great": 0,
+            "good": 0,
+            "ok": 0,
+            "miss": 0,
+            "maxCombo": 0,
+            "fast": 0,
+            "slow": 0
+          },
+          "memo": "",
+          "option": {
+            "speed": 1,
+            "turn": "normal"
+          }
+        },
+        {
+          "difficult": "Expert",
+          "gauge": {
+            "level": "EX",
+            "point": 816
+          },
+          "result": {
+            "score": 999920,
+            "exScore": 1204,
+            "bestExScore": 1204,
+            "marvelous": 370,
+            "perfect": 8,
+            "great": 0,
+            "good": 0,
+            "ok": 26,
+            "miss": 0,
+            "maxCombo": 378,
+            "fast": 4,
+            "slow": 4
+          },
+          "memo": "",
+          "option": {
+            "speed": 1,
+            "turn": "normal"
+          }
+        },
+        {
+          "difficult": "Challenge",
+          "gauge": {
+            "level": "-",
+            "point": 0
+          },
+          "result": {
+            "score": 0,
+            "exScore": 0,
+            "bestExScore": 0,
+            "marvelous": 0,
+            "perfect": 0,
+            "great": 0,
+            "good": 0,
+            "ok": 0,
+            "miss": 0,
+            "maxCombo": 0,
+            "fast": 0,
+            "slow": 0
+          },
+          "memo": "",
+          "option": {
+            "speed": 1,
+            "turn": "normal"
+          }
+        }
+      ],
+      "double": [
+        {
+          "difficult": "Basic",
+          "gauge": {
+            "level": "-",
+            "point": 0
+          },
+          "result": {
+            "score": 0,
+            "exScore": 0,
+            "bestExScore": 0,
+            "marvelous": 0,
+            "perfect": 0,
+            "great": 0,
+            "good": 0,
+            "ok": 0,
+            "miss": 0,
+            "maxCombo": 0,
+            "fast": 0,
+            "slow": 0
+          },
+          "memo": "",
+          "option": {
+            "speed": 1,
+            "turn": "normal"
+          }
+        },
+        {
+          "difficult": "Difficult",
+          "gauge": {
+            "level": "-",
+            "point": 0
+          },
+          "result": {
+            "score": 0,
+            "exScore": 0,
+            "bestExScore": 0,
+            "marvelous": 0,
+            "perfect": 0,
+            "great": 0,
+            "good": 0,
+            "ok": 0,
+            "miss": 0,
+            "maxCombo": 0,
+            "fast": 0,
+            "slow": 0
+          },
+          "memo": "",
+          "option": {
+            "speed": 1,
+            "turn": "normal"
+          }
+        },
+        {
+          "difficult": "Expert",
+          "gauge": {
+            "level": "-",
+            "point": 0
+          },
+          "result": {
+            "score": 0,
+            "exScore": 0,
+            "bestExScore": 0,
+            "marvelous": 0,
+            "perfect": 0,
+            "great": 0,
+            "good": 0,
+            "ok": 0,
+            "miss": 0,
+            "maxCombo": 0,
+            "fast": 0,
+            "slow": 0
+          },
+          "memo": "",
+          "option": {
+            "speed": 1,
+            "turn": "normal"
+          }
+        },
+        {
+          "difficult": "Challenge",
+          "gauge": {
+            "level": "-",
+            "point": 0
+          },
+          "result": {
+            "score": 0,
+            "exScore": 0,
+            "bestExScore": 0,
+            "marvelous": 0,
+            "perfect": 0,
+            "great": 0,
+            "good": 0,
+            "ok": 0,
+            "miss": 0,
+            "maxCombo": 0,
+            "fast": 0,
+            "slow": 0
+          },
+          "memo": "",
+          "option": {
+            "speed": 1,
+            "turn": "normal"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "songName": "True Blue",
+    "folder": "2013",
+    "type": "WHITE",
+    "scoreLists": {
+      "single": [
+        {
+          "difficult": "Beginner",
+          "gauge": {
+            "level": "-",
+            "point": 0
+          },
+          "result": {
+            "score": 0,
+            "exScore": 0,
+            "bestExScore": 0,
+            "marvelous": 0,
+            "perfect": 0,
+            "great": 0,
+            "good": 0,
+            "ok": 0,
+            "miss": 0,
+            "maxCombo": 0,
+            "fast": 0,
+            "slow": 0
+          },
+          "memo": "",
+          "option": {
+            "speed": 1,
+            "turn": "normal"
+          }
+        },
+        {
+          "difficult": "Basic",
+          "gauge": {
+            "level": "-",
+            "point": 0
+          },
+          "result": {
+            "score": 0,
+            "exScore": 0,
+            "bestExScore": 0,
+            "marvelous": 0,
+            "perfect": 0,
+            "great": 0,
+            "good": 0,
+            "ok": 0,
+            "miss": 0,
+            "maxCombo": 0,
+            "fast": 0,
+            "slow": 0
+          },
+          "memo": "",
+          "option": {
+            "speed": 1,
+            "turn": "normal"
+          }
+        },
+        {
+          "difficult": "Difficult",
+          "gauge": {
+            "level": "-",
+            "point": 0
+          },
+          "result": {
+            "score": 0,
+            "exScore": 0,
+            "bestExScore": 0,
+            "marvelous": 0,
+            "perfect": 0,
+            "great": 0,
+            "good": 0,
+            "ok": 0,
+            "miss": 0,
+            "maxCombo": 0,
+            "fast": 0,
+            "slow": 0
+          },
+          "memo": "",
+          "option": {
+            "speed": 1,
+            "turn": "normal"
+          }
+        },
+        {
+          "difficult": "Expert",
+          "gauge": {
+            "level": "EX",
+            "point": 992
+          },
+          "result": {
+            "score": 997940,
+            "exScore": 1765,
+            "bestExScore": 1765,
+            "marvelous": 529,
+            "perfect": 73,
+            "great": 2,
+            "good": 0,
+            "ok": 10,
+            "miss": 0,
+            "maxCombo": 604,
+            "fast": 48,
+            "slow": 27
+          },
+          "memo": "",
+          "option": {
+            "speed": 1,
+            "turn": "normal"
+          }
+        },
+        {
+          "difficult": "Challenge",
+          "gauge": {
+            "level": "-",
+            "point": 0
+          },
+          "result": {
+            "score": 0,
+            "exScore": 0,
+            "bestExScore": 0,
+            "marvelous": 0,
+            "perfect": 0,
+            "great": 0,
+            "good": 0,
+            "ok": 0,
+            "miss": 0,
+            "maxCombo": 0,
+            "fast": 0,
+            "slow": 0
+          },
+          "memo": "",
+          "option": {
+            "speed": 1,
+            "turn": "normal"
+          }
+        }
+      ],
+      "double": [
+        {
+          "difficult": "Basic",
+          "gauge": {
+            "level": "-",
+            "point": 0
+          },
+          "result": {
+            "score": 0,
+            "exScore": 0,
+            "bestExScore": 0,
+            "marvelous": 0,
+            "perfect": 0,
+            "great": 0,
+            "good": 0,
+            "ok": 0,
+            "miss": 0,
+            "maxCombo": 0,
+            "fast": 0,
+            "slow": 0
+          },
+          "memo": "",
+          "option": {
+            "speed": 1,
+            "turn": "normal"
+          }
+        },
+        {
+          "difficult": "Difficult",
+          "gauge": {
+            "level": "-",
+            "point": 0
+          },
+          "result": {
+            "score": 0,
+            "exScore": 0,
+            "bestExScore": 0,
+            "marvelous": 0,
+            "perfect": 0,
+            "great": 0,
+            "good": 0,
+            "ok": 0,
+            "miss": 0,
+            "maxCombo": 0,
+            "fast": 0,
+            "slow": 0
+          },
+          "memo": "",
+          "option": {
+            "speed": 1,
+            "turn": "normal"
+          }
+        },
+        {
+          "difficult": "Expert",
+          "gauge": {
+            "level": "-",
+            "point": 0
+          },
+          "result": {
+            "score": 0,
+            "exScore": 0,
+            "bestExScore": 0,
+            "marvelous": 0,
+            "perfect": 0,
+            "great": 0,
+            "good": 0,
+            "ok": 0,
+            "miss": 0,
+            "maxCombo": 0,
+            "fast": 0,
+            "slow": 0
+          },
+          "memo": "",
+          "option": {
+            "speed": 1,
+            "turn": "normal"
+          }
+        },
+        {
+          "difficult": "Challenge",
+          "gauge": {
+            "level": "-",
+            "point": 0
+          },
+          "result": {
+            "score": 0,
+            "exScore": 0,
+            "bestExScore": 0,
+            "marvelous": 0,
+            "perfect": 0,
+            "great": 0,
+            "good": 0,
+            "ok": 0,
+            "miss": 0,
+            "maxCombo": 0,
+            "fast": 0,
+            "slow": 0
+          },
+          "memo": "",
+          "option": {
+            "speed": 1,
+            "turn": "normal"
+          }
+        }
+      ]
+    }
+  }
+]

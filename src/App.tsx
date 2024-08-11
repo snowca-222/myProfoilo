@@ -3,19 +3,9 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import data from "./libs/js/user.json";
 import { BoxInfo } from "./libs/ts/interface.ts";
-const years = new Date().getFullYear() - 2014;
-
-// 自我介紹
-function IntroLists() {
-  const listItems = data.intro.map((list) =>
-    list.id === "years" ? (
-      <li key={list.id}>{list.txt.replace("_", ` ${years} `)}</li>
-    ) : (
-      <li key={list.id}>{list.txt}</li>
-    ),
-  );
-  return <ul>{listItems}</ul>;
-}
+import { ScorePage } from "@/components/ScorePage.tsx";
+// import axios from "axios";
+import { PPP, ggg } from "@/libs/js/api/post.js";
 
 // 技能
 function Skill() {
@@ -59,40 +49,7 @@ function Hobbies() {
     </>
   );
 }
-// 經歷
-function Experience() {
-  const listItems = data.experience.map((list, idx) => (
-    <li key={idx}>
-      <div>
-        {list.year} - {list.office}
-      </div>
-      <ul>
-        {list.works.map((a, iidx) => (
-          <li className="pl-5" key={iidx}>
-            {a}
-          </li>
-        ))}
-      </ul>
-    </li>
-  ));
-  return (
-    <>
-      <BoxTitle title="工作經歷" />
-      <ul className="flex flex-col justify-between md:flex-row">{listItems}</ul>
-    </>
-  );
-}
 
-// SOHO
-function SOHO() {
-  const listItems = data.soho.map((list, idx) => <li key={idx}>{list}</li>);
-  return (
-    <>
-      <BoxTitle title="接案經歷" />
-      <ul>{listItems}</ul>
-    </>
-  );
-}
 function BoxTitle({ title }: BoxInfo) {
   return <div> {title}</div>;
 }
@@ -105,19 +62,19 @@ function Header({ onPage }: { onPage: any }) {
 
   const lists = [
     {
-      id: "About",
-      title: "關於我",
+      id: "FlareSkill",
+      title: "Flare Skill",
     },
     {
-      id: "works",
-      title: "經歷",
+      id: "ScoreLists",
+      title: "Score",
     },
     {
-      id: "skills",
-      title: "工具 & 技能",
+      id: "Rivals",
+      title: "Rivals",
     },
   ];
-  const [isSelect, setIsSelect] = useState("About");
+  const [isSelect, setIsSelect] = useState("FlareSkill");
 
   let selectedStyle = "font-bold bg-yellow-400";
   const Navlists = lists.map((list) => (
@@ -142,40 +99,73 @@ function Header({ onPage }: { onPage: any }) {
   );
 }
 
-function AboutPage() {
+function FlarePage() {
   return (
     <>
-      <div className="flex">
-        <div className="w-1/3">
-          <div className="p-3">
-            <div className="h-72 w-72 rounded-full border"></div>
-          </div>
+      <div className="flex py-1">
+        <div className="w-1/3 px-1">
+          <div className="w-full bg-green-600">&nbsp;</div>
         </div>
-        <div className="w-1/2">
-          <div>{data.office}</div>
-          <div>
-            {data.name_ch} {data.name_en}
-          </div>
-          <div>{data.email}</div>
-          <IntroLists />
+        <div className="w-1/3 px-1">
+          <div className="bg-green-600 text-center text-white">SP</div>
+        </div>
+        <div className="w-1/3 px-1">
+          <div className="bg-green-600 text-center text-white">DP</div>
         </div>
       </div>
-    </>
-  );
-}
-function WorksPage() {
-  return (
-    <>
-      <div className="flex">
-        <div className="w-2/3 p-2.5">
-          <div className="border p-2.5">
-            <Experience />
-          </div>
+      <div className="flex py-1">
+        <div className="w-1/3 px-1">
+          <div className="bg-green-600 px-2 text-white">Rank</div>
         </div>
-        <div className="w-1/3 p-2.5">
-          <div className="border p-2.5">
-            <SOHO />
-          </div>
+        <div className="w-1/3 px-1">
+          <div className="border px-2">none</div>
+        </div>
+        <div className="w-1/3 px-1">
+          <div className="border px-2">none</div>
+        </div>
+      </div>
+      <div className="flex py-1">
+        <div className="w-1/3 px-1">
+          <div className="bg-green-600 px-2 text-white">Total</div>
+        </div>
+        <div className="w-1/3 px-1">
+          <div className="border px-2">0</div>
+        </div>
+        <div className="w-1/3 px-1">
+          <div className="border px-2">0</div>
+        </div>
+      </div>
+      <div className="flex py-1">
+        <div className="w-1/3 px-1">
+          <div className="bg-green-600 px-2 text-white">Classic</div>
+        </div>
+        <div className="w-1/3 px-1">
+          <div className="border px-2">0 (0/30)</div>
+        </div>
+        <div className="w-1/3 px-1">
+          <div className="border px-2">0 (0/30)</div>
+        </div>
+      </div>
+      <div className="flex py-1">
+        <div className="w-1/3 px-1">
+          <div className="bg-green-600 px-2 text-white">White</div>
+        </div>
+        <div className="w-1/3 px-1">
+          <div className="border px-2">0 (0/30)</div>
+        </div>
+        <div className="w-1/3 px-1">
+          <div className="border px-2">0 (0/30)</div>
+        </div>
+      </div>
+      <div className="flex py-1">
+        <div className="w-1/3 px-1">
+          <div className="bg-green-600 px-2 text-white">Gold</div>
+        </div>
+        <div className="w-1/3 px-1">
+          <div className="border px-2">0 (0/30)</div>
+        </div>
+        <div className="w-1/3 px-1">
+          <div className="border px-2">0 (0/30)</div>
         </div>
       </div>
     </>
@@ -205,54 +195,84 @@ function SkillPage() {
     </>
   );
 }
-
+function handlePost() {
+  PPP("Wayne", 37).then((res: any) => {
+    console.log(res.data);
+  });
+  // axios
+  //   .post(import.meta.env.VITE_API_URL, {
+  //     method: "write",
+  //     name: "wayne",
+  //   })
+  //   .then((res) => {
+  //     console.log(res);
+  //   })
+  //   .catch((err) => {
+  //     console.log(err);
+  //   });
+}
+function handleGet() {
+  ggg().then((res: any) => {
+    console.log(res);
+  });
+}
 function App() {
-  const [count, setCount] = useState(0);
-  const [page, setPage] = useState("About");
+  const [page, setPage] = useState("FlareSkill");
+  // 父子傳遞
   const handleChildStatePage = (newPage: string) => {
     setPage(newPage);
   };
 
   return (
     <>
-      <div className="h-96 w-full bg-orange-200/40"></div>
       <Header onPage={handleChildStatePage} />
 
       <div className="container mx-auto">
-        {page === "About" ? (
-          <AboutPage />
-        ) : page === "works" ? (
-          <WorksPage />
+        {page === "FlareSkill" ? (
+          <FlarePage />
+        ) : page === "ScoreLists" ? (
+          <ScorePage />
         ) : (
           <SkillPage />
         )}
-
-        <div>作品與案例</div>
       </div>
-      <div className="hidden">
-        <div>
-          <a href="https://vitejs.dev" target="_blank">
-            <img src={viteLogo} className="logo" alt="Vite logo" />
-          </a>
-          <a href="https://react.dev" target="_blank">
-            <img src={reactLogo} className="logo react" alt="React logo" />
-          </a>
-        </div>
-        <h1>Vite + React</h1>
-        <div className="card h-3 w-2 text-center">
-          <button onClick={() => setCount((count) => count + 1)}>
-            count is {count}
+      <div>
+        <button className="rounded-md bg-purple-300 p-2.5" onClick={handlePost}>
+          測試POST
+        </button>
+        <button className="p2.5 rounded-md bg-orange-600" onClick={handleGet}>
+          測試GET
+        </button>
+      </div>
+
+      <Ori />
+    </>
+  );
+}
+function Ori() {
+  const [count, setCount] = useState(0);
+  return (
+    <>
+      <div>
+        <div className="card h-3 text-center">
+          <button
+            className="rounded-md bg-green-300 px-2 py-1"
+            onClick={() => setCount((count) => count + 1)}
+          >
+            click
           </button>
-          <p>
-            Edit <code>src/App.tsx</code> and save to test HMR
-          </p>
+          <div>count is {count}</div>
+          <OriResult propCount={count} />
         </div>
-        <p className="read-the-docs">
-          Click on the Vite and React logos to learn more
-        </p>
       </div>
     </>
   );
 }
-
+function OriResult({ propCount }: { propCount: any }) {
+  return (
+    <>
+      <div>count is {propCount}</div>
+    </>
+  );
+}
 export default App;
