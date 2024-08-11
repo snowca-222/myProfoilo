@@ -1,5 +1,5 @@
 import {service} from "../request.ts"
-export function PPP(username:string, userage:string){
+export function PPP(username:string, userage:number){
     return service.request({
         method: "post",
         params: {
